@@ -62,6 +62,12 @@
             @Html.ValidationMessageFor(model => model.Likes)
         </div>
 
+        <div class="editor-field">
+            <!--when doing a file upload, use the followig syntax-->
+            <input type="file" name="ImageUrl" id="ImageUrl" />
+            @Html.ValidationMessageFor(model => model.ImageUrl)
+        </div>
+
         <p>
             <input type="submit" value="Save" />
         </p>
