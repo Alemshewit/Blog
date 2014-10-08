@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<section class="post">
+	<div class="postInfo">
+		<img class="thumb" src="author.jpg" />
+		<span>Post Title</span><br />
+		<small>By <a href="/author/AuthorName">Author Name</a> on Date Posted</small>
+	</div>
+	<div class="postContent">
+		
+		<img src="images.jpg" />
+		
+		BODY
+
+	</div>
+	<div>
+		
+		<span class="like" data-postId="postId">
+			3 Likes
+		</span> 
+		
+	</div>
+
+	<div class="comments">
+		<span class="showComments">
+		<span>Show</span> 3 comments
+		</span>
+		
+		<div class="commentsDiv">
+			
+			 <div class="comment">
+				<span>Commenter name wrote on 
+					Date Commented
+				</span>
+				<br />
+				<div>Comment Body</div>
+			</div>			
+			 <div class="comment">
+				<span>Commenter name wrote on 
+					Date Commented
+				</span>
+				<br />
+				<div>Comment Body</div>
+			</div>
+			
+			<form>
+				<label for="author">Your Name</label>
+				<input type="text" name="author" class="commentAuthor" />
+				<br />
+				<label for="body">Comment</label>
+				<textarea name="body" class="commentBody"></textarea>
+				<br />
+				<input type="submit" value="Add Comment" />
+			</form>
+		</div>
+
+	</div>
+</section>

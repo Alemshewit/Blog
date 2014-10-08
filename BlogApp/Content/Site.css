@@ -1,61 +1,46 @@
-﻿body {
-    font-size: .85em;
-    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    color: #232323;
-    background-color: #fff;
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
 }
 
-header, footer, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
     display: block;
 }
 
-
-/* Styles for basic forms
------------------------------------------------------------*/
-fieldset {
-    border: 1px solid #ddd;
-    padding: 0 1.4em 1.4em 1.4em;
-    margin: 0 0 1.5em 0;
+body
+{
+    line-height: 1;
+    font-size: .85em;
+    color: #232323;
+    background-color: #fff;
+    margin:0 20% 5% 20%;
+    text-align: center;
 }
 
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
+ol, ul
+{
+    list-style: none;
 }
 
-textarea {
-    min-height: 75px;
+blockquote, q
+{
+    quotes: none;
 }
 
-.editor-label {
-    margin: 1em 0 0 0;
+    blockquote:before, blockquote:after, q:before, q:after
+    {
+        content: none;
+    }
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-.editor-field {
-    margin: 0.5em 0 0 0;
-}
-
-
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error {
-    color: #f00;
-}
-
-.field-validation-valid {
-    display: none;
-}
-
-.input-validation-error {
-    border: 1px solid #f00;
-    background-color: #fee;
-}
-
-.validation-summary-errors {
-    font-weight: bold;
-    color: #f00;
-}
-
-.validation-summary-valid {
-    display: none;
-}
